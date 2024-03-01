@@ -1,0 +1,161 @@
+body{
+    margin: 0; 
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(217, 153,160);    
+}
+nav{
+    background-color:black;
+    color: white;
+    height: 50px;
+    box-shadow: 2px 2px 7px 2px rgb(174, 174,174);
+}
+.logo{
+    display: inline block;
+    margin-right: 70px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.navbar{
+    display:inline-block
+}
+.search{
+    display:inline-block
+    margin-left;180px
+    margin-top: 13px;
+
+.search input:focus{
+    background-color: rgb(217,153,160);
+}
+span{
+    width: 10px;
+    background-color: aquamarine;
+    color: rgb(95,20,200)
+}
+.navbar a{
+    pedding: right 35px;
+    color: white;
+    text-decoration:none
+    font-size: 1em;
+}
+.navbar a:hover{
+    color: rgb(43,0,255);
+}
+.logo>a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 0 rgb(55, 0, 255);
+    border-bottom: 4px solid red;
+}
+.logo>a:hover{
+    color:grey;
+}
+#home{
+    border-bottom: 4px solid rgb(0, 200,255);
+}
+#about{
+    border-bottom: 4px solid rgb(128,150,8);
+}
+#blog{
+    border-bottom: 4px solid yellow;
+}
+#feedback{
+    border-bottom: 4px solid rgb(197, 148,26);
+}
+.flexbox{
+    display:flex:;
+    background-color:black;
+    box-shadow:2px 2px 7px 2px;
+    border-radius:20px;
+    cursor:pointer:
+    color:white;
+    height:400px;
+    width:300px;
+    margin-left:60px;
+    margin-top: 60px;
+    flex-direction:column
+    justify-content:center
+    align-items:center
+}
+.box1{
+    font-size:1.5em;
+    width: 150px;
+    height: 60px;
+    border:2px double rgb(6,6,6)
+}
+
+.box1:hover{
+    color:rgb(43, 0, 255):
+}
+.box1::first-letter{
+    font: size 30px;
+    color;red
+}
+.box2{
+    font-size: 1em;
+    width: 50px;
+    height: 60px;
+}
+.box2:hover{
+    color:rgb(43, 0, 255):
+}
+.box2::first-letter{
+    font: size 25px;
+    color:skyblue;
+}
+.box3{
+    font-size:1em;
+    width: 50px;
+    height: 60px;
+
+}
+
+.box3:hover{
+    color:rgb(43, 0, 255):
+}
+.box3::first-letter{
+    font: size 25px;
+    color:rgb(69,153,26)
+    }
+
+    .box4{
+        font-size:1em;
+        width: 50px;
+        height:60px;
+    }
+    .box4:hover{
+        color:rgb(43, 0, 255):
+    }
+    .box4::first-letter{
+        font: size 25px;
+        color: rgb(163,58,117);
+    }
+    .box5{
+            font-size:1em;
+            width: 50px;
+            height: 60px;
+            border:2px double rgb(6,6,6)
+        }
+        
+        .box5:hover{
+            color:rgb(43, 0, 255):
+        }
+        .box5::first-letter{
+            font: size: 25px;
+            color::rgb(222,225,30);
+        }
+       .box6{
+                font-size:1em;
+                width: 70px;
+                height: 60px;
+                border:2px double rgb(6,6,6)
+            }
+            
+     .box6:hover{
+                color:rgb(43, 0, 255):
+            }
+            .box6::first-letter{
+                font: size 25px;
+                color:rgb(205,145.43):
+            }
